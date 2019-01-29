@@ -17,7 +17,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #120291;
 }
 
 hr.light {
@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: #120291;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -101,12 +101,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F05F40;
+  color: #120291;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: #7fe3ff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
