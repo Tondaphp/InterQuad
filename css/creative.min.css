@@ -325,6 +325,11 @@ header.masthead p {
 }
 .headingtop {
 	padding-top: 8rem
+
+}
+.paddings{
+	padding-left: 4rem;
+	padding-right: 4rem
 }
 #7fe3ff
 rgba(127, 227, 255, 1)
