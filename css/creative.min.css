@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-faded {
-    color: rgba(255, 255, 255, .7)
+    color: rgba(230, 166, 3, 1)
 }
 
 section {
@@ -129,11 +129,11 @@ img::-moz-selection {
     }
 
     #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, .7)
+        color: #120291
     }
 
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-        color: #fff
+        color: #7fe3ff
     }
 
     #mainNav .navbar-nav > li.nav-item > a.nav-link {
@@ -314,7 +314,20 @@ header.masthead p {
     box-shadow: 0 0 0 .2rem rgba(127, 227, 255, .5) !important
 }
 
+.text-team {
+	    text-align: center
+}
+.social {
+	text-align: center
+}
+.light {
+	background-color: #7fe3ff
+}
+.headingtop {
+	padding-top: 8rem
+}
 #7fe3ff
 rgba(127, 227, 255, 1)
 #120291
 #e6a603
+rgba(230, 166, 3, 1)
