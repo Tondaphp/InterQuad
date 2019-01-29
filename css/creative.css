@@ -17,7 +17,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #120291;
+  border-color: #F05F40;
 }
 
 hr.light {
@@ -25,13 +25,13 @@ hr.light {
 }
 
 a {
-  color: #120291;
+  color: #F05F40;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #120291;
+  color: #f05f40;
 }
 
 h1,
@@ -44,11 +44,11 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #7fe3ff !important;
+  background-color: #F05F40 !important;
 }
 
 .bg-dark {
-  background-color: #120291 !important;
+  background-color: #212529 !important;
 }
 
 .text-faded {
@@ -101,12 +101,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #120291;
+  color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #7fe3ff;
+  color: #f05f40;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -119,12 +119,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #120291;
+  color: #F05F40;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #120291 !important;
+  color: #F05F40 !important;
   background-color: transparent;
 }
 
@@ -160,10 +160,10 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #120291;
+    color: #F05F40;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #120291;
+    color: #f05f40;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -171,7 +171,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #120291;
+    color: #F05F40;
   }
 }
 
@@ -288,7 +288,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #120291 !important;
+  color: #F05F40 !important;
 }
 
 .btn {
@@ -304,13 +304,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #120291;
-  border-color: #120291;
+  background-color: #F05F40;
+  border-color: #F05F40;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #7fe3ff !important;
+  background-color: #ee4b28 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
