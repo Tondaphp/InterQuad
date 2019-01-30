@@ -15,7 +15,7 @@ body {
 hr {
     max-width: 50px;
     border-width: 3px;
-    border-color: #120291
+    border-color: #1b5de0
 }
 
 hr.light {
@@ -23,13 +23,13 @@ hr.light {
 }
 
 a {
-    color: #120291;
+    color: #1b5de0;
     -webkit-transition: all .2s;
     transition: all .2s
 }
 
 a:hover {
-    color: #120291
+    color: #1b5de0
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-primary {
-    background-color: #120291 !important
+    background-color: #1b5de0 !important
 }
 
 .bg-dark {
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-faded {
-    color: rgba(230, 166, 3, 1)
+    color: rgba(255, 255, 255, .7)
 }
 
 section {
@@ -94,12 +94,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #120291;
+    color: #1b5de0;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #120291
+    color: #1b5de0
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -110,11 +110,11 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-    color: #120291
+    color: #1b5de0
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-    color: #120291 !important;
+    color: #1b5de0 !important;
     background-color: transparent
 }
 
@@ -129,11 +129,11 @@ img::-moz-selection {
     }
 
     #mainNav .navbar-brand {
-        color: #120291
+        color: rgba(255, 255, 255, .7)
     }
 
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-        color: #7fe3ff
+        color: #fff
     }
 
     #mainNav .navbar-nav > li.nav-item > a.nav-link {
@@ -154,11 +154,11 @@ img::-moz-selection {
     }
 
     #mainNav.navbar-shrink .navbar-brand {
-        color: #120291
+        color: #1b5de0
     }
 
     #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-        color: #120291
+        color: #1b5de0
     }
 
     #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -166,14 +166,14 @@ img::-moz-selection {
     }
 
     #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
-        color: #120291
+        color: #1b5de0
     }
 }
 
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url(../img/bath.jpg);
+    background-image: url(../img/header.jpg);
     background-position: center center;
     background-size: cover
 }
@@ -236,7 +236,7 @@ header.masthead p {
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(240, 95, 64, .9);
+    background: rgba(127, 227, 255, .8);
     -webkit-transition: all .2s;
     transition: all .2s
 }
@@ -256,13 +256,15 @@ header.masthead p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 14px;
+    font-size: 1.5rem;
     font-weight: 600;
-    text-transform: uppercase
+    text-transform: uppercase;
+	color: #1b5de0
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px
+    font-size: 1rem;
+	color: #000
 }
 
 .portfolio-box:hover .portfolio-box-caption {
@@ -275,16 +277,16 @@ header.masthead p {
 
 @media (min-width: 768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-        font-size: 16px
+        font-size: 1.5rem     
     }
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px
+        font-size: 1rem
     }
 }
 
 .text-primary {
-    color: #120291 !important
+    color: #1b5de0 !important
 }
 
 .btn {
@@ -300,8 +302,8 @@ header.masthead p {
 }
 
 .btn-primary {
-    background-color: #120291;
-    border-color: #120291
+    background-color: #1b5de0;
+    border-color: #1b5de0
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -336,3 +338,5 @@ rgba(127, 227, 255, 1)
 #120291
 #e6a603
 rgba(230, 166, 3, 1)
+
+#1b5de0
