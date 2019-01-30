@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-dark {
-    background-color: #7fe3ff !important
+    background-color: #5c5c5c !important
 }
 
 .text-faded {
@@ -58,13 +58,13 @@ section {
 
 ::-moz-selection {
     color: #fff;
-    background: #7fe3ff;
+    background: #5c5c5c;
     text-shadow: none
 }
 
 ::selection {
     color: #fff;
-    background: #7fe3ff;
+    background: #5c5c5c;
     text-shadow: none
 }
 
@@ -106,7 +106,7 @@ img::-moz-selection {
     font-size: .9rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #7fe3ff
+    color: #5c5c5c
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
@@ -162,7 +162,7 @@ img::-moz-selection {
     }
 
     #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: #7fe3ff
+        color: #5c5c5c
     }
 
     #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
@@ -308,7 +308,7 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     color: #fff;
-    background-color: #7fe3ff !important
+    background-color: #5c5c5c !important
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -317,13 +317,14 @@ header.masthead p {
 }
 
 .text-team {
-	    text-align: center
+	    text-align: center;
+		color: #fff
 }
 .social {
 	text-align: center
 }
 .light {
-	background-color: #7fe3ff
+	background-color: #5c5c5c
 }
 .headingtop {
 	padding-top: 8rem
@@ -336,6 +337,8 @@ header.masthead p {
 .teamrow{
 	margin-left: 1rem;
 	margin-right: 1rem
+}.who {
+	color: #fff;
 }
 #7fe3ff
 rgba(127, 227, 255, 1)
@@ -343,4 +346,7 @@ rgba(127, 227, 255, 1)
 #e6a603
 rgba(230, 166, 3, 1)
 
+
+ #5c5c5c
+ 
 #1b5de0
